@@ -1,0 +1,1 @@
+<p>Code Verification is {{ $user->verification_code_email }} </p>

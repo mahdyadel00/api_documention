@@ -1,0 +1,28 @@
+/* direction right */
+
+.text-right{
+	text-align: right !important
+}
+.text-left{
+	text-align: left !important
+}
+.text-justify{
+    text-align: justify !important;
+}
+.rtl{
+    direction: rtl !important;
+}
+.newsletter-layout-two .rq-download-app-section .app-text-section .rq-newsletter-form button.rq-btn{
+    float:left
+}
+.ltr{
+    direction: ltr !important;
+}
+
+.rq-listing-details .rq-listing-promo-content .rq-listing-item h6{
+    padding-right: 36px;
+}
+
+.rq-listing-details .rq-listing-promo-content .rq-listing-item h4, .rq-listing-details .rq-listing-promo-content .rq-listing-item h6{
+    padding-left: 0;
+}

@@ -1,0 +1,1 @@
+https://n8n4c4t5.stackpathcdn.com/turbo/motor-bike/wp-content/themes/turbo/assets/dist/js/isotope.pkgd.min.js?ver=1
