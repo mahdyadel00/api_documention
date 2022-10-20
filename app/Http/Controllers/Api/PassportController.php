@@ -394,6 +394,7 @@ class PassportController extends ApiController
      *     ),
      * )
      */
+
     public function update_profile(Request $request)
     {
         // return $request->avatar;
@@ -407,7 +408,6 @@ class PassportController extends ApiController
                     break;
             }
         }
-
         $user = auth()->user();
         if ($request->first_name && $request->first_name != "") {
             $user->name = $request->first_name;

@@ -35,7 +35,6 @@ Route::group(['namespace' => 'Api'], function () {
     Route::get('advertisement', 'AdvertisementController@index');
     Route::get('advertisement/{id}', 'AdvertisementController@show');
     Route::get('page/{id}', 'PageController@index');
-    //Route::post('forgot/password', 'ForgotPasswordController');
     Route::get('products/all', 'ProductController@all');
     Route::post('products/nearest', 'ProductController@nearest');
     Route::post('products/search', 'ProductController@search');
